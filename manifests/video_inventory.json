@@ -1,0 +1,73 @@
+{
+    "folder": "20260619_182125_110389_twitch_skipnho",
+    "generated_at": "2026-06-20T00:09:07+00:00",
+    "source_video": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "duration_seconds": 9821.999667,
+        "size_bytes": 7858061036,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "bitrate_kbps": 6400,
+        "format_name": "mpegts"
+    },
+    "video_output": {
+        "id": 87,
+        "uuid": null,
+        "format": "ts",
+        "totals": {
+            "size_bytes": 7858061036,
+            "duration_seconds": 9821.999667
+        },
+        "summary": {
+            "descriptors_count": 1,
+            "valid_segments_count": 1,
+            "invalid_segments_count": 0,
+            "partial": false
+        }
+    },
+    "segments": [
+        {
+            "attempt": 1,
+            "attempt_id": 91,
+            "file_name": "seg_00001.ts",
+            "relative_path": "20260619_182125_110389_twitch_skipnho/source/seg_00001.ts",
+            "absolute_path": "/var/www/html/storage/app/private/recordings/20260619_182125_110389_twitch_skipnho/source/seg_00001.ts",
+            "size_bytes": 7858061036,
+            "format": "ts",
+            "duration_seconds": 9821.999667,
+            "validation": {
+                "ffprobe": {
+                    "streams_total": 3,
+                    "format_name": "mpegts",
+                    "duration": 9821.999667,
+                    "size": 7858061036
+                }
+            }
+        }
+    ],
+    "profiles": {
+        "base_quality": "1080p",
+        "base_slug": "1080",
+        "profiles": [
+            {
+                "quality": "1080p",
+                "slug": "1080",
+                "width": 1920,
+                "height": 1080
+            }
+        ]
+    },
+    "contract": {
+        "inputs": {
+            "video_segments_count": 1,
+            "video_output_id": 87,
+            "input_signature": "2dee56b60e5555b7657444fa464cc8f72d14719f56c62d4b4b71d66c43688f9d"
+        },
+        "validations": {
+            "totals_size_bytes": 7858061036,
+            "totals_duration_seconds": 9821.999667
+        }
+    }
+}
